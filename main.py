@@ -1,4 +1,4 @@
-print("CAESER CIPHER ")
+
 alphabet=['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z',
          'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
 
@@ -35,7 +35,7 @@ while repition:
          elif direction == "decode":
                   d_display(d_text=text, d_shift=shift)
 
-         should_continue = input("Do u want to continue Type yes or no :/n")
-         if should_continue==no:
+         should_continue = input("Do u want to continue Type yes or no :\n")
+         if should_continue=='no':
                   repition = False
                   print("Bye")
