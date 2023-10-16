@@ -27,7 +27,7 @@ while repition:
          direction = input("Type encode or decode: \n ")
          text = input("Enter a text: \n")
          shift = int(input("Enter a shift number: \n "))
-         shift_mod = shift%26
+         shift = shift%26
 
 
          if direction == "encode":
